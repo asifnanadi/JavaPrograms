@@ -16,5 +16,5 @@ public class Employee {
 }
 
 
-// Global class variables can be initialized by using this keyword. if the global variables and local variables names are same
-// then we have to use this keyword.
+/*If the global variables and local variables names are same
+then we have to use this keyword in order to call global variables.*/
