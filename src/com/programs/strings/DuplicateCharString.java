@@ -3,6 +3,7 @@ package com.programs.strings;
 //Output: Print duplicate char of string and counts
 public class DuplicateCharString {
 
+	// Using String method
 	public void duplicateCounts() {
 		String str = "tt bb cc dd";
 		String newStr = str.replaceAll("\\s", "");
@@ -18,6 +19,11 @@ public class DuplicateCharString {
 			}
 		}
 		System.out.println("total duplicate character counts are " + count);
+
+	}
+
+	// Using ArrayList
+	public void duplicateCountsUsingArrayList() {
 
 	}
 
